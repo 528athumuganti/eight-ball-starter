@@ -6,7 +6,41 @@
 
 
 function askEightBall() {
+
+  // get input value
 let userName = document.getElementById().value 
 let userQuestion = document.getElementById().value
 console.log(userName, userQuestion);
+
+// i wanna show the comments on the site
+if(userQuestion === ""){
+document.getElementById('questionOut').textContent = "You asked" + 
+
 }
+document.getElementById(`questLookout`).textContent = "You asked" + userQuestion;
+
+}
+
+let greeting
+
+if (userName === "") {
+greeting = "Hello Mystery Person!"
+} else {
+greeting = `Hello ${userName}`;
+
+}
+
+document.getElementById('greeting').textContent = greeting
+
+// get a random number
+
+if (userQuestion === ''){
+  document.getElementById('questionOut').textContent = ''
+  document.getElementById('answer').textContent = 'The 8 ball made a question'
+  document.getElementById('answerType').innerHTML = ''
+
+
+}
+// get the magic 8 ball answer
+
+// show the 8 ball answer type badge
