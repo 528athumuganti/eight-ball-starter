@@ -17,14 +17,7 @@ if(userQuestion === ""){
 document.getElementById('questionOut').textContent = "You asked nothing"; 
 
 } else {
-document.getElementById('questLookout').textContent = "You asked" + userQuestion;
-
-}
-
-
-
-
-
+document.getElementById('questionOut').textContent = "You asked" + "" + userQuestion;
 
 }
 
@@ -51,3 +44,15 @@ if (userQuestion === ''){
 // get the magic 8 ball answer
 
 // show the 8 ball answer type badge
+
+
+
+
+
+
+
+
+
+
+// end of ask 8 ball function
+}
