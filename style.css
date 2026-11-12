@@ -4,16 +4,16 @@
    ========================================== */
 
 :root {
-  --brand: #3b2a6b;        /* navbar, hero, button */
+  --brand: #3E2642;        /* navbar, hero, button */
   --brand-light: #ece8f6;  /* page background */
-  --accent: #f4b942;       /* step numbers, highlights */
-  --text: #1f1d2b;
+  --accent: #634866;       /* step numbers, highlights */
+  --text: white;
   --font: "Poppins", Arial, sans-serif;
 }
 
 body {
   font-family: var(--font);
-  background: var(--brand-light);
+  background-image: url('download.jpeg');
   color: var(--text);
 }
 
